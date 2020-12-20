@@ -455,7 +455,7 @@ h1,
 
   h1,
   .h1 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2;
   }
 }
@@ -465,7 +465,6 @@ h1,
   h1,
   .h1 {
     line-height: 1.25;
-    font-size: 80px;
   }
 }
 
@@ -489,7 +488,7 @@ h2,
   h2,
   .h2 {
     line-height: 1;
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
@@ -512,7 +511,7 @@ h3,
   h3,
   .h3 {
     line-height: 1.13043;
-    font-size: 46px;
+    font-size: 38px;
   }
 }
 
@@ -595,7 +594,7 @@ h3 a:hover, .h3 a:hover,
 h4 a:hover, .h4 a:hover,
 h5 a:hover, .h5 a:hover,
 h6 a:hover, .h6 a:hover {
-  color: ##111111;
+  color: #111111;
 }
 
 h1 .small, .h1 .small,
@@ -23916,7 +23915,7 @@ html:not(.lt-ie10) .not-animated {
 
 .responsive-tabs .resp-accordion:hover {
   cursor: pointer;
-  color: #f7f7f7;
+  color: #6d758d;
 }
 
 .responsive-tabs .resp-accordion .resp-arrow {
@@ -29846,3 +29845,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     display: block;
   }
 }
+
+.bt-background {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* 
+.bt-background div {
+      background: linear-gradient(to left, rgb(255,255,255,.1), rgb(255,255,255,.6));
+} */
