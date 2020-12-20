@@ -15541,9 +15541,9 @@ fieldset[disabled] .bg-accent .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-menu-wrap {
-  height: 60px;
+  /* height: 60px; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background: #040061;
   box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.2);
