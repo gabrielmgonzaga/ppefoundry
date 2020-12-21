@@ -4380,6 +4380,10 @@ html.ie-10 .section-cover {
   position: absolute;
 }
 
+.thumbnail-josip a img {
+  padding: 30px;
+}
+
 .thumbnail {
   transition: .3s;
   border: none;
@@ -4459,6 +4463,10 @@ a.thumbnail:hover {
   padding: 20px;
   transform: translateY(-50%);
   transition: 0.3s all ease;
+}
+
+.thumbnail-desc {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4836,6 +4844,10 @@ a.thumbnail:hover {
   .thumbnail-josip .thumbnail-desc {
     text-align: left;
   }
+}
+
+.thumbnail-josip-title, .thumbnail-josip p {
+  font-weight: 400;
 }
 
 .thumbnail-josip .btn-primary:hover {
@@ -23574,7 +23586,7 @@ html:not(.lt-ie10) .not-animated {
   display: block;
   will-change: transform;
   backface-visibility: hidden;
-  transition: .1s opacity ease-in;
+  transition: .1s;
 }
 
 @media (max-width: 479.98px) {
@@ -29851,7 +29863,63 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* 
-.bt-background div {
-      background: linear-gradient(to left, rgb(255,255,255,.1), rgb(255,255,255,.6));
-} */
+
+/*========================================
+          Trigger
+ ========================================*/
+.animate {
+  -webkit-animation-duration: .7s;
+  animation-duration: .7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animateTwo {
+  -webkit-animation-duration: 1.4s;
+  animation-duration: 1.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animateThree {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*===================================================
+        FADE IN UP
+ ==================================================*/
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2%, 0);
+    transform: translate3d(0, 2%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2%, 0);
+    transform: translate3d(0, 2%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
