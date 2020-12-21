@@ -427,7 +427,7 @@ html p a:hover {
 
 /** @section Typography*/
 body {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
 }
 
@@ -26621,7 +26621,7 @@ html.ie-10 .countdown-circle {
 
 .ui-to-top:hover {
   color: #fff;
-  background: #f7f7f7;
+  background: #6d758d;
   text-decoration: none;
 }
 
@@ -29864,6 +29864,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background-repeat: no-repeat;
 }
 
+.bt-backgroundwhite {
+  padding: 60px 0;
+  background: rgb(255,255,255,.7);
+  border-radius: 6px;
+}
+
+.bt-backgroundwhite60 {
+  width: 60%;
+  padding: 45px;
+  background: rgb(255,255,255,.7);
+  border-radius: 6px;
+}
+
+@media (max-width: 500px) {
+  .bt-backgroundwhite60 {
+    width: 110%;
+  }
+}
+
 /*========================================
           Trigger
  ========================================*/
@@ -29894,8 +29913,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 2%, 0);
-    transform: translate3d(0, 2%, 0);
+    -webkit-transform: translate3d(0, 3%, 0);
+    transform: translate3d(0, 3%, 0);
   }
 
   to {
@@ -29908,8 +29927,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 2%, 0);
-    transform: translate3d(0, 2%, 0);
+    -webkit-transform: translate3d(0, 3%, 0);
+    transform: translate3d(0, 3%, 0);
   }
 
   to {
