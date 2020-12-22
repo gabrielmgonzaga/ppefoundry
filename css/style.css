@@ -4848,6 +4848,7 @@ a.thumbnail:hover {
 
 .thumbnail-josip-title, .thumbnail-josip p {
   font-weight: 400;
+  font-size: 18px;
 }
 
 .thumbnail-josip .btn-primary:hover {
@@ -12094,14 +12095,19 @@ fieldset[disabled] .bg-accent .btn-java {
 /** @section Reset Services*/
 .service {
   padding: 30px 15px;
-  border-radius: 10px;
+  border-radius: 6px;
   border: 1px solid #f7f7f7;
+  background: #fff;
   transition: 0.25s;
 }
 
 .service:hover {
   box-shadow: 0 0 38px 3px rgba(4, 0, 97, 0.07);
   border-color: transparent;
+}
+
+.service-title a:hover {
+  text-decoration: underline;
 }
 
 .service *+.service-title {
@@ -29869,6 +29875,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background: rgb(255,255,255,.7);
   border-radius: 6px;
 }
+
+/* .bt-bw {
+  filter: grayscale(100%);
+} */
 
 @media (min-width: 1200px) {
   .bt-backgroundwhite60 {
