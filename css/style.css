@@ -1798,6 +1798,10 @@ img {
   color: #55bbeb;
 }
 
+footer {
+  border-bottom: 30px solid #111;
+}
+
 footer .btn-java:focus,
 footer .btn-java:hover {
   border-color: #a2cfdb;
@@ -29876,9 +29880,34 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   border-radius: 6px;
 }
 
-/* .bt-bw {
-  filter: grayscale(100%);
-} */
+.bt-scam {
+  background: #111;
+  color: #fff;
+}
+
+.bt-scam div {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0 10px;
+  max-width: 1200px;
+  font-size: 15px;
+}
+
+.bt-scam div button {
+  padding-left: 30px;
+  color: #fff;
+}
+
+.bt-scam div button:hover {
+  color: #eee;
+}
+
+@media (max-width: 500px) {
+  .bt-scam {
+    margin-top: 55px;
+  }
+}
 
 @media (min-width: 1200px) {
   .bt-backgroundwhite60 {
