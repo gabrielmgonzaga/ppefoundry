@@ -1798,10 +1798,6 @@ img {
   color: #55bbeb;
 }
 
-footer {
-  border-bottom: 30px solid #111;
-}
-
 footer .btn-java:focus,
 footer .btn-java:hover {
   border-color: #a2cfdb;
@@ -29901,6 +29897,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .bt-scam div button:hover {
   color: #eee;
+}
+
+.bt-contact {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 @media (max-width: 1200px) {
