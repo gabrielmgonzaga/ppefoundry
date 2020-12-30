@@ -29924,6 +29924,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .bt-backgroundwhite60 {
     width: 110%;
   }
+
+  .bt-partners {
+    margin: 30px auto;
+    width: 50%;
+}
+  }
 }
 
 /*========================================
